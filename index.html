@@ -10,7 +10,7 @@
       background-color: #f7f7f7;
       display: flex;
       justify-content: center;
-      align-items: flex-start; /* 让内容从顶部开始对齐 */
+      align-items: center; /* 居中对齐 */
       height: 100vh;
       margin: 0;
     }
@@ -18,7 +18,8 @@
     img {
       max-width: 200px;
       height: auto;
-      margin-top: 20px; /* 设置上边距，调整图片的位置 */
+      position: relative;
+      top: -200px; /* 向上偏移200px */
     }
   </style>
 </head>
