@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,21 @@
       background-color: #f7f7f7;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start; /* 让内容从顶部开始对齐 */
       height: 100vh;
       margin: 0;
     }
+
     img {
-      max-width: 200px; /* 调整图片宽度为200像素 */
-      height: auto;    /* 保持图片比例 */
+      max-width: 200px;
+      height: auto;
+      margin-top: 20px; /* 设置上边距，调整图片的位置 */
     }
   </style>
 </head>
+
 <body>
   <img src="logo.png" alt="Logo">
 </body>
+
 </html>
