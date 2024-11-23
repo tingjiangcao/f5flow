@@ -9,24 +9,34 @@
   <style>
     body {
       background-color: #f7f7f7;
-      display: flex;
-      justify-content: center;
-      align-items: center; /* 居中对齐 */
       height: 100vh;
       margin: 0;
+      padding: 0;
     }
 
     img {
-      max-width: 280px;
+      width: 200px;
       height: auto;
-      position: relative;
-      top: -100px; /* 向上偏移200px */
+      position: absolute;
+      left: calc(50% - 100px);
+      top: 350px;
     }
+
+    label {
+      color: #d0d0d0;
+      position: absolute;
+      bottom: 0;
+      left: calc(50% - 90px);
+      bottom: 20px;
+    }
+
+
   </style>
 </head>
 
 <body>
   <img src="logo.png" alt="Logo">
+  <label> · 全新的软件创新工作室 · </label>
 </body>
 
 </html>
